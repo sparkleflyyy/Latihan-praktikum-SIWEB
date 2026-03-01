@@ -1,0 +1,94 @@
+/* ==========================================
+   BASE STYLES
+   ========================================== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.hero {
+    height: 400px;
+    background-image: url('../assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dashboard-card {
+    transition: 0.3s;
+}
+
+.dashboard-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* ==========================================
+   DARK MODE STYLES
+   ========================================== */
+body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+}
+
+body.dark-mode .navbar {
+    background-color: #1a1a2e !important;
+}
+
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    border-color: #333;
+    color: #f0f0f0;
+}
+
+body.dark-mode .modal-content {
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+}
+
+body.dark-mode .modal-header {
+    border-bottom-color: #333;
+}
+
+
+body.dark-mode .modal-footer {
+    border-top-color: #333;
+}
+
+body.dark-mode .list-group-item {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-color: #444;
+}
+
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-color: #555;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #aaa;
+}
+
+body.dark-mode footer {
+    background-color: #0d0d0d !important;
+}
+
+/* ==========================================
+   MODAL & LIST STYLES (FIX VISIBILITY)
+   ========================================== */
+#daftar-wishlist .list-group-item {
+    color: #333;
+}
+
+body.dark-mode #daftar-wishlist .list-group-item {
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-color: #444;
+}
