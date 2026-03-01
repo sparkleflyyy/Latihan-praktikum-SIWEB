@@ -6,4 +6,4 @@ Repository ini berisi kumpulan tugas untuk mata kuliah ISB-310 Sistem Informasi 
 - NAMA : Riyan Nurizqy
   
 ## Daftar branch Latihan
-- week 1
+- Latihan 1
