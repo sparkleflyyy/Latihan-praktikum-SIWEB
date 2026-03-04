@@ -1,6 +1,4 @@
-// ==========================================
-// 1. FITUR DARK MODE (LocalStorage & DOM)
-// ==========================================
+
 const btnTheme = document.getElementById('btn-theme');
 const body = document.body;
 
@@ -22,9 +20,6 @@ btnTheme.addEventListener('click', function () {
     }
 });
 
-// ==========================================
-// 2. FITUR BELI (Event Listener & DOM)
-// ==========================================
 function aktifkanTombolBeli() {
     const tombolBeli = document.querySelectorAll('.btn-detail');
     tombolBeli.forEach(function (button) {
