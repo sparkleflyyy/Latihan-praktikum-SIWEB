@@ -7,3 +7,5 @@ Repository ini berisi kumpulan tugas untuk mata kuliah ISB-310 Sistem Informasi 
   
 ## Daftar branch Latihan
 - Latihan 1
+- Latihan 2
+- Latihan 3
