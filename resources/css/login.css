@@ -1,0 +1,63 @@
+/* ==========================================
+   LOGIN PAGE STYLES
+   ========================================== */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.login-header {
+    background: #212529;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.login-header h3 {
+    margin: 0;
+    font-weight: 600;
+}
+
+.login-header p {
+    margin: 10px 0 0;
+    opacity: 0.8;
+    font-size: 14px;
+}
+
+.login-body {
+    padding: 30px;
+}
+
+.login-body .form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+.login-body .btn-warning {
+    font-weight: 600;
+    padding: 12px;
+}
+
+.login-body .btn-warning:hover {
+    background-color: #e0a800;
+}
